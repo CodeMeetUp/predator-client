@@ -1,4 +1,10 @@
 import React from "react";
-const App = () => <div>Predator CLIENT</div>;
+import Router from "./utils/Router";
+
+const App = () => (
+  <div>
+    <Router />
+  </div>
+);
 
 export default App;
