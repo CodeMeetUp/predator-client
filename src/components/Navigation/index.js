@@ -218,6 +218,7 @@ const Navigation = ({ pages }) => {
         </button>
         {pages.map((p, k) => (
           <li
+            key={k}
             className={`page-link ${p.pushRight ? "push-rest-to-right" : ""}`}
           >
             <NavLink to={p.to}>{p.label}</NavLink>
